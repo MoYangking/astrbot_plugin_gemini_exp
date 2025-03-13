@@ -2,5 +2,5 @@ name: astrbot_plugin_geminiexp
 desc: 基于 Google Gemini 2.0 Flash Experimental 多模态模型的插件
 help: 使用 /祥 图片生成 命令，然后发送文本和图片进行多模态交互
 version: v1.0.0
-author: YourName
+author: alen
 repo: https://github.com/yourusername/astrbot_plugin_geminiexp

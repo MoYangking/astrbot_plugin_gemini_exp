@@ -1,6 +1,7 @@
-from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult, EventMessageType
+from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger
+from astrbot.api.all import *  # 正确导入EventMessageType
 from astrbot.api.message_components import *
 import asyncio
 import sys
@@ -26,7 +27,7 @@ class GeminiExpPlugin(Star):
         
         # 导入必要的模块
         global genai, types, PILImage
-        from google import genai
+        import google.generativeai as genai
         from google.genai import types
         from PIL import Image as PILImage
         
@@ -163,7 +164,6 @@ class GeminiExpPlugin(Star):
                 contents=contents,
                 config=types.GenerateContentConfig(response_modalities=['Text', 'Image'])
             )
-
             
             # 解析响应
             result = {'text': '', 'image_paths': []}
