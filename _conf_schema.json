@@ -1,0 +1,9 @@
+{
+    "api_key": {
+        "description": "Gemini API密钥",
+        "type": "string",
+        "hint": "请输入您的 Gemini API 密钥",
+        "default": "",
+        "obvious_hint": true
+    }
+}
