@@ -1,8 +1,10 @@
 # p图神器Gemini插件
 
 让你在AstrBot调用Gemini2.0-flash-exp来生成图片或者p图。
+
 Gemini2.0-flash-exp为原生多模态模型，其既是语言模型，也是生图模型，因此能够对图像使用简单的自然语言命令进行处理。
 插件需要配置api，谷歌的api是可以免费获取的：https://aistudio.google.com/apikey
+
 第一次使用会自动下载一些环境依赖。
 
 使用方法：
