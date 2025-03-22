@@ -242,7 +242,7 @@ class GeminiExpPlugin(Star):
         try:
             # 配置自定义 base_url
             http_options = HttpOptions(
-                base_url="https://dainty-liger-d8726e.netlify.app"
+                base_url="https://generativelanguage.googleapis.com"
             )
 
             # 初始化客户端
