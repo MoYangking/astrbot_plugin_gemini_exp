@@ -11,7 +11,7 @@ from io import BytesIO
 import time
 import tempfile
 import os
-from google import genai  # 修改为正确的导入方式
+import google.generativeai as genai
 from google.genai import types
 from PIL import Image as PILImage
 from google.genai.types import HttpOptions
